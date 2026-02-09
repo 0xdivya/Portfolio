@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f6f2;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: #dfe6d8;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 8%;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero-text h3 {
+    margin: 10px 0;
+    color: #6b705c;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background: #6b705c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-img img {
+    width: 280px;
+    border-radius: 50%;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 8%;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* ABOUT */
+.about-text {
+    max-width: 800px;
+}
+
+/* SKILLS */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project-card ul {
+    margin-left: 20px;
+}
+
+/* EXPERIENCE */
+.exp-box {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* ACHIEVEMENTS */
+.achieve-list {
+    margin-left: 20px;
+}
+
+/* CONTACT */
+.socials a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #6b705c;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #dfe6d8;
+}
