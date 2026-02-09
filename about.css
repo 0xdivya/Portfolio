@@ -2,22 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
 }
 
 .header {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 30px 20px;
-}
-
-.header h1 {
-    margin-bottom: 5px;
-}
-
-.header p {
-    font-size: 16px;
+    padding: 20px;
 }
 
 .navbar {
@@ -41,49 +33,45 @@ body {
     background-color: #222;
 }
 
-.home-section {
+.about-section {
+    background-color: white;
     width: 80%;
     margin: 30px auto;
-    background-color: white;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
 }
 
-.home-section h2 {
+.about-section h2 {
     text-align: center;
     color: #333;
 }
 
-.intro-text {
+.about-section p {
     font-size: 16px;
     line-height: 1.6;
     color: #444;
-    margin-top: 15px;
 }
 
-.highlight-box {
+.info-box {
+    margin-top: 20px;
+    padding: 15px;
     background-color: #eef;
-    margin-top: 25px;
-    padding: 20px;
-    border-left: 5px solid #333;
     border-radius: 5px;
 }
 
-.highlight-box h3 {
-    color: #222;
-    margin-bottom: 10px;
+.info-box ul {
+    list-style-type: square;
 }
 
-.highlight-box p {
-    line-height: 1.6;
+.info-box li {
+    margin: 8px 0;
 }
 
-.highlight-box ul {
-    padding-left: 20px;
-}
-
-.highlight-box ul li {
-    margin-bottom: 5px;
+.objective-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #efe;
+    border-radius: 5px;
 }
 
 .footer {

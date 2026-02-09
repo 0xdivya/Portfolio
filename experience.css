@@ -9,15 +9,7 @@ body {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 30px 20px;
-}
-
-.header h1 {
-    margin-bottom: 5px;
-}
-
-.header p {
-    font-size: 16px;
+    padding: 20px;
 }
 
 .navbar {
@@ -41,48 +33,55 @@ body {
     background-color: #222;
 }
 
-.home-section {
+.experience-section {
     width: 80%;
     margin: 30px auto;
     background-color: white;
-    padding: 25px;
+    padding: 20px;
     border-radius: 5px;
 }
 
-.home-section h2 {
+.experience-section h2 {
     text-align: center;
     color: #333;
 }
 
 .intro-text {
+    text-align: center;
     font-size: 16px;
-    line-height: 1.6;
     color: #444;
-    margin-top: 15px;
+    line-height: 1.6;
 }
 
-.highlight-box {
+.exp-box {
     background-color: #eef;
-    margin-top: 25px;
     padding: 20px;
+    margin-top: 25px;
     border-left: 5px solid #333;
     border-radius: 5px;
 }
 
-.highlight-box h3 {
+.exp-box h3 {
     color: #222;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.highlight-box p {
+.exp-box p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.exp-desc {
+    margin-top: 10px;
     line-height: 1.6;
 }
 
-.highlight-box ul {
+.exp-list {
+    margin-top: 10px;
     padding-left: 20px;
 }
 
-.highlight-box ul li {
+.exp-list li {
     margin-bottom: 5px;
 }
 
